@@ -21,7 +21,7 @@ from django.urls import include
 
 
 urlpatterns = [
-    path('', include('first_app.urls')),
+    path('', include('first_app.urls')), #Default over to the first_app urls file and handle it from there.
     #path('<age>/', views.show_age, name='show_age'),
     path('admin/', admin.site.urls),
      #the default url will call views.index of the first_app app.
